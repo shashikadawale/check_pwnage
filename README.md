@@ -1,7 +1,8 @@
 Check if the password you are using is exposed in data breaches.
 
 Inspired by [haveibeenpwned.com](https://haveibeenpwned.com)
-I have used password API call to get the breached data(passwords) in this script.
+
+I have used the password API call to get the breached data(passwords) in this script.
 
 (Use python 3.5 or above)
 #### Usage:
