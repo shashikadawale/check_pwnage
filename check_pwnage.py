@@ -5,7 +5,6 @@ import sys
 
 # Checking user password with the password data fetched from the haveibeenpwned api
 def check_password(user_pass):
-    user_pass = user_pass
     pass_hash = sha1(user_pass.encode()).hexdigest()
     pass_first_five = pass_hash[:5]
     url = f'https://api.pwnedpasswords.com/range/{pass_first_five}'
